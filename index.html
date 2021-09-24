@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CGPA calculator online is an easy to use calculator to calculate your CGPA online. You can calculate your NU CGPA easily.">
+    <meta name="keywords" content="CGPA calculator online, NU CGPA calculator, CGPA calculator">
+    <meta name="author" content="Shahan Ahmed Chowdhury">
+    <title>Cgpa Calculator Online</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+            <div class="container">
+              <div class="d-flex justify-content-between container-fluid">
+                <div class="d-flex align-items-center">
+                  <a class="navbar-brand" href="https://cgpa-calculator.online"><img height="50px" width="100%" src="images/logo.png" alt="CGPA calculator logo"></a>
+                  <a href="https://cgpa-calculator.online" class="text-decoration-none text-white pt-1 ms-5 position-absolute"><h3>CGPA CALCULATOR</h3></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </div>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item text-center ">
+                        <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item text-center">
+                        <a class="nav-link text-white" href="/about.html">ABOUT</a>
+                      </li>
+                      <li class="nav-item text-center">
+                        <a class="nav-link text-white" href="/contact.html">CONTACT</a>
+                      </li>
+                      <li class="nav-item text-center">
+                        <a class="nav-link text-white" href="/privacy.html">PRIVACY</a>
+                      </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container bg-light rounded-3">
+      
+      <section>
+        <div class="d-flex justify-content-center align-items-center">
+        <div class="table-wrapper">
+          <table id="table">
+            <h4 id="warning" class="p-1 bg-danger text-center text-white fw-light">&#9888;Please provide you grade point's and credit's</h4>
+            <h3 class="p-1 bg-info text-center text-white">First Year</h3>
+            <tr>
+              <th class="table-title text-center p-2">Subjects</th>
+              <th class="table-title text-center p-2">Grades</th>
+              <th class="table-title text-center p-2">Grade Points</th>
+              <th class="table-title text-center p-2">Credits</th>
+            </tr>
+            <tr>
+              <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+              <td><div class="input-group">
+                <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected>Choose</option>
+                  <option value="">A</option>
+                  <option value="">A-</option>
+                  <option value="">B+</option>
+                  <option value="">B</option>
+                  <option value="">B-</option>
+                  <option value="">C+</option>
+                  <option value="">C</option>
+                  <option value="">C-</option>
+                  <option value="">D+</option>
+                  <option value="">D</option>
+                  <option value="">F</option>
+                </select>
+              </div></td>
+              <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+              <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+            </tr>
+            <tr>
+              <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+              <td><div class="input-group">
+                <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected>Choose</option>
+                  <option value="">A</option>
+                  <option value="">A-</option>
+                  <option value="">B+</option>
+                  <option value="">B</option>
+                  <option value="">B-</option>
+                  <option value="">C+</option>
+                  <option value="">C</option>
+                  <option value="">C-</option>
+                  <option value="">D+</option>
+                  <option value="">D</option>
+                  <option value="">F</option>
+                </select>
+              </div></td>
+              <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point" required></td>
+              <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+            </tr>
+            <tr>
+              <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+              <td><div class="input-group">
+                <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected>Choose</option>
+                  <option value="">A</option>
+                  <option value="">A-</option>
+                  <option value="">B+</option>
+                  <option value="">B</option>
+                  <option value="">B-</option>
+                  <option value="">C+</option>
+                  <option value="">C</option>
+                  <option value="">C-</option>
+                  <option value="">D+</option>
+                  <option value="">D</option>
+                  <option value="">F</option>
+                </select>
+              </div></td>
+              <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+              <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+            </tr>
+            <tr>
+              <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+              <td><div class="input-group">
+                <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected>Choose</option>
+                  <option value="">A</option>
+                  <option value="">A-</option>
+                  <option value="">B+</option>
+                  <option value="">B</option>
+                  <option value="">B-</option>
+                  <option value="">C+</option>
+                  <option value="">C</option>
+                  <option value="">C-</option>
+                  <option value="">D+</option>
+                  <option value="">D</option>
+                  <option value="">F</option>
+                </select>
+              </div></td>
+              <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+              <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+            </tr>
+            <tr>
+              <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+              <td><div class="input-group">
+                <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected>Choose</option>
+                  <option value="">A</option>
+                  <option value="">A-</option>
+                  <option value="">B+</option>
+                  <option value="">B</option>
+                  <option value="">B-</option>
+                  <option value="">C+</option>
+                  <option value="">C</option>
+                  <option value="">C-</option>
+                  <option value="">D+</option>
+                  <option value="">D</option>
+                  <option value="">F</option>
+                </select>
+              </div></td>
+              <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+              <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+            </tr>
+            <tr>
+              <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+              <td><div class="input-group">
+                <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected>Choose</option>
+                  <option value="">A</option>
+                  <option value="">A-</option>
+                  <option value="">B+</option>
+                  <option value="">B</option>
+                  <option value="">B-</option>
+                  <option value="">C+</option>
+                  <option value="">C</option>
+                  <option value="">C-</option>
+                  <option value="">D+</option>
+                  <option value="">D</option>
+                  <option value="">F</option>
+                </select>
+              </div></td>
+              <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+              <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+            </tr>
+          </table>
+          <div class="btn-wrapper">
+            <button class="btn btn-info btn-size-1 mt-3 me-3 text-white fw-bold" onclick="yearPoints(6)">Calulate =</button>
+          </div>
+            <h4 class="text-center m-3">CGPA: <span id="year-1-cgpa">0.0</span></h4>
+            <div>
+              <button id="yearadd1" class="btn btn-info btn-size-1 text-white fw-bold year-add" onclick="addYear('yearadd1', 'second-year')">Add second Year</button>
+            </div>
+      </div>
+      </section>
+      <!-----------------
+           Second year
+       ------------------>
+        <section id="second-year">
+          <div class="d-flex justify-content-center align-items-center">
+          <div class="table-wrapper">
+            <table id="table">
+              <h3 class="p-1 bg-info text-center text-white">Second Year</h3>
+              <tr>
+                <th class="table-title text-center p-2">Subjects</th>
+                <th class="table-title text-center p-2">Grades</th>
+                <th class="table-title text-center p-2">Grade Points</th>
+                <th class="table-title text-center p-2">Credits</th>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input class="input-field form-control grade-point" type="text" placeholder="Grade Point" required></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input id="grade-point-3" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input id="grade-point-4" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input id="grade-point-5" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+              <tr>
+                <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                <td><div class="input-group">
+                  <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                    <option selected>Choose</option>
+                    <option value="">A</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B</option>
+                    <option value="">B-</option>
+                    <option value="">C+</option>
+                    <option value="">C</option>
+                    <option value="">C-</option>
+                    <option value="">D+</option>
+                    <option value="">D</option>
+                    <option value="">F</option>
+                  </select>
+                </div></td>
+                <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+              </tr>
+            </table>
+            <div class="btn-wrapper">
+              <button class="btn btn-info btn-size-1 mt-3 me-3 text-white fw-bold" onclick="yearPoints(8)">Calulate =</button>
+            </div>
+              <h4 class="text-center m-3">CGPA: <span id="year-2-cgpa">0.0</span></h4>
+              <div>
+                <button id="yearadd2" class="btn btn-info btn-size-1 text-white fw-bold year-add" onclick="addYear('yearadd2', 'third-year')">Add third Year</button>
+              </div>
+        </div>
+        </section>
+        <!-----------------
+           Third year
+       ------------------>
+          <section id="third-year">
+              <div class="d-flex justify-content-center align-items-center">
+              <div class="table-wrapper">
+                <table id="table">
+                  <h3 class="p-1 bg-info text-center text-white">Third Year</h3>
+                  <tr>
+                    <th class="table-title text-center p-2">Subjects</th>
+                    <th class="table-title text-center p-2">Grades</th>
+                    <th class="table-title text-center p-2">Grade Points</th>
+                    <th class="table-title text-center p-2">Credits</th>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-1" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-2" class="input-field form-control grade-point" type="text" placeholder="Grade Point" required></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-3" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-4" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-5" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                  <tr>
+                    <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                    <td><div class="input-group">
+                      <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose</option>
+                        <option value="">A</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B</option>
+                        <option value="">B-</option>
+                        <option value="">C+</option>
+                        <option value="">C</option>
+                        <option value="">C-</option>
+                        <option value="">D+</option>
+                        <option value="">D</option>
+                        <option value="">F</option>
+                      </select>
+                    </div></td>
+                    <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                    <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                  </tr>
+                </table>
+                <div class="btn-wrapper">
+                  <button class="btn btn-info btn-size-1 mt-3 me-3 text-white fw-bold" onclick="yearPoints(9)">Calulate =</button>
+                </div>
+                  <h4 class="text-center m-3">CGPA: <span id="year-3-cgpa">0.0</span></h4>
+                  <div>
+                    <button id="yearadd3" class="btn btn-info btn-size-1 text-white fw-bold year-add" onclick="addYear('yearadd3', 'fourth-year')">Add fourth Year</button>
+                  </div>
+            </div>
+          </section>
+        <!-----------------
+           Fourth year
+       ------------------>
+          <section id="fourth-year">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="table-wrapper">
+                  <table id="table">
+                    <h3 class="p-1 bg-info text-center text-white">Fourth Year</h3>
+                    <tr>
+                      <th class="table-title text-center p-2">Subjects</th>
+                      <th class="table-title text-center p-2">Grades</th>
+                      <th class="table-title text-center p-2">Grade Points</th>
+                      <th class="table-title text-center p-2">Credits</th>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-1" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-2" class="input-field form-control grade-point" type="text" placeholder="Grade Point" required></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-3" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-4" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-5" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                    <tr>
+                      <td><input class="input-field form-control" type="text" placeholder="Subject Name"></td>
+                      <td><div class="input-group">
+                        <select class="form-select input-field" id="inputGroupSelect04" aria-label="Example select with button addon">
+                          <option selected>Choose</option>
+                          <option value="">A</option>
+                          <option value="">A-</option>
+                          <option value="">B+</option>
+                          <option value="">B</option>
+                          <option value="">B-</option>
+                          <option value="">C+</option>
+                          <option value="">C</option>
+                          <option value="">C-</option>
+                          <option value="">D+</option>
+                          <option value="">D</option>
+                          <option value="">F</option>
+                        </select>
+                      </div></td>
+                      <td><input id="grade-point-6" class="input-field form-control grade-point" type="text" placeholder="Grade Point"></td>
+                      <td><input class="input-field form-control credit-point" type="text" placeholder="Credit"></td>
+                    </tr>
+                  </table>
+                  <div class="btn-wrapper">
+                    <button class="btn btn-info btn-size-1 mt-3 me-3 text-white fw-bold" onclick="yearPoints(10)">Calulate =</button>
+                  </div>
+                  <h4 class="text-center m-3">CGPA: <span id="year-4-cgpa">0.0</span></h4>
+                  <h4 class="text-center m-3">TOTAL CGPA: <span id="all-year-cgpa">0.0</span></h4>
+              </div>
+          </section>
+          <section>
+            <p class="p-4 fs-5 text-secondary">CGPA calculator online is an easy to use calculator to calculate your CGPA online. <br>You can calculate your NU CGPA easily.</p>
+            <h2 class="ps-4 pt-3 text-secondary">What is CGPA?</h2>
+            <p class="p-4 text-secondary fs-5">
+              Well CGPA means Cumulative Grade Point Average, many national university students don't know how to calculate CGPA so i'm going to explain how NU CGPA calculation system works. Down below i have attached a grading system explanation image.
+            </p>
+            <h2 class="ps-4 pt-3 pb-4 text-secondary">NU grading system</h2>
+            <div class="blog-img d-flex align-items-center justify-content-center">
+              <img src="images/nu-grading-system.png" alt="CGPA grading system">
+            </div>
+            <p class="p-4 text-secondary fs-5">In this picture you can see more then 80 is A+, more then 75 is A, more then 70 is A-, more then 65 is B+, more then 60 is B, more then 55 is B-, more then 50 is C+, more then 45 is C, more then 40 is D, and less then 40 is F.</p>
+            <h2 class="ps-4 pt-3 pb-2 text-secondary">CGPA calculation</h2>
+            <p class="p-4 text-secondary fs-5">Calculation of CGPA is lot more different in term of normal result calculation, that's why we created a simplify way to make you feel comfortable when you are calculating your CGPA. By using our calculator you can get year based CGPA and overall CGPA.</p>
+            <h2 class="ps-4 pt-3 pb-2 text-secondary">FAQ</h2>
+            <h4 class="ps-4 pt-2 text-secondary fs-5">1.What is CGPA?</h4>
+            <p class="p-4 text-secondary fs-6"><b>CGPA is Cumulative Grade Point Average.</b></p>
+            <h4 class="ps-4 pt-2 text-secondary fs-5">2.What is CGPA full score?</h4>
+            <p class="p-4 text-secondary fs-6"><b>According to national university 4.00 is CGPA full score.</b></p>
+            <h4 class="ps-4 pt-2 text-secondary fs-5">3.Is CGPA and GPA same?</h4>
+            <p class="p-4 text-secondary fs-6"><b>Well, the answer is NO because GPA come after every semester or year mean while CGPA come after four year's.</b></p>
+            <h4 class="ps-4 pt-2 text-secondary fs-5">4.Is it a 3.0 GPA good?</h4>
+            <p class="p-4 text-secondary fs-6"><b>YES, it's a good GPA.</b></p>
+            <h4 class="ps-4 pt-2 text-secondary fs-5">5.What's a perfect GPA?</h4>
+            <p class="p-4 text-secondary fs-6"><b>4.00 is a perfect GPA.</b></p>
+          </section>
+          <footer class="container container-fluid footer-style">
+            <div class="d-flex align-items-center justify-content-center f-icons">
+              <i class="fab fa-facebook me-3 icon-h"></i>
+              <i class="fab fa-instagram me-3 icon-h"></i>
+              <i class="fab fa-twitter me-3 icon-h"></i>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <img height="100px" width="120px" src="images/redE.png" alt="red e">
+            </div>
+            <p class="text-white text-center"><small>Ⓒ CGPA CALCULATOR ONLINE</small></p>
+          </footer>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/cd57cc4ad3.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

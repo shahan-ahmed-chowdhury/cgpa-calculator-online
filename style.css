@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+}
+ul li:hover {
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.blog-img{
+    height: 300px;
+}
+.blog-img img{
+    width: 80%;
+    height: 100%;
+}
+.table-wrapper{
+    margin-top: 5px;
+}
+#warning{
+    display: none;
+}
+.table-title{
+    border: 2px solid #0dcaf0;
+    background-color: #ffffff;
+}
+.input-field{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+.btn-wrapper{
+    height: 50px;
+    margin-bottom: 10px;
+ 
+    width: auto;
+}
+.btn-size-1{
+    width: 100%;
+}
+.year-add{
+    margin-bottom: 5px;
+}
+#second-year{
+    display: none;
+}
+#third-year{
+    display: none;
+}
+#fourth-year{
+    display: none;
+}
+.footer-style{
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #31d2f2;
+}
+.f-icons{
+    padding-top: 50px;
+}
+.icon-h{
+    font-size: 30px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 30px;
+}
+.icon-h:hover{
+    background-color: #31d2f2;
+}
